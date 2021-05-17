@@ -1,0 +1,15 @@
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\netcoreapp3.1\WindowsFormsApp3.exe
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\netcoreapp3.1\WindowsFormsApp3.deps.json
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\netcoreapp3.1\WindowsFormsApp3.runtimeconfig.json
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\netcoreapp3.1\WindowsFormsApp3.runtimeconfig.dev.json
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\netcoreapp3.1\WindowsFormsApp3.dll
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\netcoreapp3.1\WindowsFormsApp3.pdb
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.Form1.resources
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.AssemblyInfoInputs.cache
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.AssemblyInfo.cs
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.dll
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.pdb
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.genruntimeconfig.cache
+C:\Users\i5\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\netcoreapp3.1\WindowsFormsApp3.csprojAssemblyReference.cache

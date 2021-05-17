@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CzQGaF++68gOZyAJEj9+JI+3idkf63pbAYNQb4ZGNcJTx8qWOY3r6eDjSZrkHtTjVL9aNrTI6FLXra+yjDIMrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\i5\\source\\repos\\WindowsFormsApp3\\WindowsFormsApp3\\WindowsFormsApp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\i5\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.15\\microsoft.netcore.app.runtime.win-x86.3.1.15.nupkg.sha512",
+    "C:\\Users\\i5\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.15\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.15.nupkg.sha512",
+    "C:\\Users\\i5\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.15\\microsoft.aspnetcore.app.runtime.win-x86.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}

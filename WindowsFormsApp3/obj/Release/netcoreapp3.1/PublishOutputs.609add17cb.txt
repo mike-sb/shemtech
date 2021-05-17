@@ -1,0 +1,5 @@
+C:\Users\i5\Desktop\C#\shemteh\WindowsFormsApp3.exe
+C:\Users\i5\Desktop\C#\shemteh\WindowsFormsApp3.dll
+C:\Users\i5\Desktop\C#\shemteh\WindowsFormsApp3.deps.json
+C:\Users\i5\Desktop\C#\shemteh\WindowsFormsApp3.runtimeconfig.json
+C:\Users\i5\Desktop\C#\shemteh\WindowsFormsApp3.pdb
