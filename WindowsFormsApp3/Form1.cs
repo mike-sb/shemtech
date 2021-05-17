@@ -13,7 +13,7 @@ namespace WindowsFormsApp3
     public partial class Form1 : Form
     {
         public string type;
-
+        public int t;
         public Form1()
         {
             InitializeComponent();
@@ -23,7 +23,7 @@ namespace WindowsFormsApp3
         {
             type = "JK";
             radioButton1.Checked = true;
-
+            t = 2;
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -134,6 +134,166 @@ namespace WindowsFormsApp3
                     }
                 }
             }
+
+            dataGridView2.Rows.Add();
+            dataGridView2.Rows.Add();
+            dataGridView2.Rows.Add();
+            dataGridView3.Rows.Add();
+            dataGridView3.Rows.Add();
+            dataGridView3.Rows.Add();
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < dataGridView2.Columns.Count; i++)
+            {
+                for (int j = 0; j < dataGridView2.Rows.Count; j++)
+                {
+                    dataGridView2.Rows[j].Cells[i].Value = "";
+                    dataGridView3.Rows[j].Cells[i].Value = "";
+                }
+            }
+
+
+            for (int i = 0; i < dataGridView1.RowCount - 1; i++)
+            {
+                switch (Convert.ToInt32(dataGridView1.Rows[i].Cells[7].Value))
+                {
+                    case 0:
+                        dataGridView2.Rows[0].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 1:
+                        dataGridView3.Rows[0].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 2:
+                        dataGridView2.Rows[0].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 3:
+                        dataGridView3.Rows[0].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 4:
+                        dataGridView2.Rows[0].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 5:
+                        dataGridView3.Rows[0].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 6:
+                        dataGridView2.Rows[0].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 7:
+                        dataGridView3.Rows[0].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 8:
+                        dataGridView2.Rows[1].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 9:
+                        dataGridView3.Rows[1].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 10:
+                        dataGridView2.Rows[1].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 11:
+                        dataGridView3.Rows[1].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 12:
+                        dataGridView2.Rows[1].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 13:
+                        dataGridView3.Rows[1].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 14:
+                        dataGridView2.Rows[1].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 15:
+                        dataGridView3.Rows[1].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 16:
+                        dataGridView2.Rows[3].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 17:
+                        dataGridView3.Rows[3].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 18:
+                        dataGridView2.Rows[3].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 19:
+                        dataGridView3.Rows[3].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 20:
+                        dataGridView2.Rows[3].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 21:
+                        dataGridView3.Rows[3].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 22:
+                        dataGridView2.Rows[3].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 23:
+                        dataGridView3.Rows[3].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 24:
+
+                        dataGridView2.Rows[2].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 25:
+
+                        dataGridView3.Rows[2].Cells[0].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 26:
+                        dataGridView2.Rows[2].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 27:
+
+                        dataGridView3.Rows[2].Cells[1].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 28:
+                        dataGridView2.Rows[2].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 29:
+                        dataGridView3.Rows[2].Cells[3].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 30:
+                        dataGridView2.Rows[2].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    case 31:
+                        dataGridView3.Rows[2].Cells[2].Value = dataGridView1.Rows[i].Cells[t].Value;
+                        break;
+                    default:
+                        break;
+                }
+
+            }
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            t = 3;
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            t = 2;
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            t = 4;
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            t = 5;
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            t = 6;
         }
     }
 }
